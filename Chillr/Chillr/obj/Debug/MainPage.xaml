@@ -1,0 +1,117 @@
+﻿<Page
+    x:Class="Chillr.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Chillr"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="#F5F5F5">
+        <Grid.Resources>
+            <Style TargetType="Button">
+                <Setter Property="VerticalAlignment" Value="Stretch"/>
+                <Setter Property="HorizontalAlignment" Value="Stretch"/>
+                <!--<Setter Property="BorderBrush" Value="gray"/>-->
+                <Setter Property="BorderThickness" Value="0"/>
+            </Style>
+            <Style TargetType="TextBlock">
+                <Setter Property="Foreground" Value="Black"/>
+                <Setter Property="FontSize" Value="20"/>
+                <Setter Property="HorizontalAlignment" Value="Left"/>
+                <Setter Property="FontWeight" Value="SemiLight"></Setter>
+            </Style>
+
+            <Style x:Key="BalLargeTextStyle" TargetType="TextBlock">
+                <Setter Property="Foreground" Value="White"/>
+                <Setter Property="FontSize" Value="45"/>
+                <Setter Property="FlowDirection" Value="RightToLeft"></Setter>
+                <Setter Property="HorizontalAlignment" Value="Right"/>
+                <Setter Property="FontWeight" Value="SemiLight"></Setter>
+            </Style>
+
+            <Style x:Key="BalSmallTextStyle" TargetType="TextBlock">
+                <Setter Property="Foreground" Value="White"/>
+                <Setter Property="FontSize" Value="25"/>
+                <Setter Property="FlowDirection" Value="RightToLeft"></Setter>
+                <Setter Property="HorizontalAlignment" Value="Right"/>
+                <Setter Property="FontWeight" Value="SemiLight"></Setter>
+            </Style>
+
+        </Grid.Resources>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0">
+            <Image Grid.Row="0" Stretch="Fill" Source="Assets/Chillr/wall.png"/>
+
+            <Image Source="Assets/Chillr/logo.png" Stretch="Uniform"
+               HorizontalAlignment="Left" Margin="12,12,0,0"
+               VerticalAlignment="Top" Height="35">
+            </Image>
+
+            <StackPanel Orientation="Horizontal"  VerticalAlignment="Top" HorizontalAlignment="Right">
+                <Button Padding="0">
+                    <Button.Content>
+                        <Image Source="Assets/Chillr/icon_settings.png" Height="30"/>
+                    </Button.Content>
+                </Button>
+            </StackPanel>
+
+            <StackPanel VerticalAlignment="Bottom" Margin="0,0,12,24" HorizontalAlignment="Right">
+                <TextBlock Text="Available Balance"  Style="{StaticResource BalSmallTextStyle}"></TextBlock>
+                <TextBlock Text="Rs 1020210.00" Style="{StaticResource BalLargeTextStyle}" ></TextBlock>
+            </StackPanel>
+
+
+        </Grid>
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="0.5"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="0.5"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Rectangle Fill="LightGray"    Grid.Row="1" Grid.ColumnSpan="3"/>
+            <Rectangle Fill="LightGray"   Grid.Column="1" Grid.RowSpan="3"/>
+
+            <Button Grid.Row="0" Grid.Column="0">
+                <StackPanel>
+                    <Image Source="Assets/Chillr/icon_paynow.png" Height="100"/>
+                    <TextBlock  Text="PAY" Margin="25,0,0,0"/>
+                </StackPanel>
+            </Button>
+            <Button Grid.Row="2" Grid.Column="0">
+                <StackPanel>
+                    <Image Source="Assets/Chillr/icon_nearme.png" Height="100" Width="100"/>
+                    <TextBlock  Text="NEAR ME"/>
+                </StackPanel>
+            </Button>
+            <Button Grid.Row="0" Grid.Column="2" >
+                <StackPanel>
+                    <Image Source="Assets/Chillr/icon_request.png" Height="100" Width="100"/>
+                    <TextBlock  Text="REQUEST"/>
+                </StackPanel>
+            </Button>
+            <Button Grid.Row="2" Grid.Column="2" >
+                <StackPanel>
+                    <Image Source="Assets/Chillr/icon_utility.png" Height="100" Width="100"/>
+                    <TextBlock  Text="UTILITIES" Margin="10,0,0,0"/>
+                </StackPanel>
+            </Button>
+
+        </Grid>
+
+    </Grid>
+</Page>
+

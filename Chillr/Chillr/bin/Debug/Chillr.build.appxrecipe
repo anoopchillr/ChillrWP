@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>MOBME-WINDOWS</Machine>
+    <WindowsUser>mobme</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>b27f4720-da91-4aed-8a60-6a6be884ad89</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\mobme\Documents\Visual Studio 2013\Projects\Chillr\Chillr\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\mobme\Documents\Visual Studio 2013\Projects\Chillr\Chillr\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\mobme\Documents\Visual Studio 2013\Projects\Chillr\Chillr\bin\Debug\Chillr.exe">
+      <PackagePath>Chillr.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mobme\Documents\Visual Studio 2013\Projects\Chillr\Chillr\Assets\Chillr\icon_nearme.png">
+      <PackagePath>Assets\Chillr\icon_nearme.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mobme\Documents\Visual Studio 2013\Projects\Chillr\Chillr\Assets\Chillr\icon_paynow.png">
+      <PackagePath>Assets\Chillr\icon_paynow.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mobme\Documents\Visual Studio 2013\Projects\Chillr\Chillr\Assets\Chillr\icon_request.png">
+      <PackagePath>Assets\Chillr\icon_request.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mobme\Documents\Visual Studio 2013\Projects\Chillr\Chillr\Assets\Chillr\icon_settings.png">
+      <PackagePath>Assets\Chillr\icon_settings.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mobme\Documents\Visual Studio 2013\Projects\Chillr\Chillr\Assets\Chillr\icon_utility.png">
+      <PackagePath>Assets\Chillr\icon_utility.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mobme\Documents\Visual Studio 2013\Projects\Chillr\Chillr\Assets\Chillr\logo.png">
+      <PackagePath>Assets\Chillr\logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mobme\Documents\Visual Studio 2013\Projects\Chillr\Chillr\Assets\Chillr\wall.png">
+      <PackagePath>Assets\Chillr\wall.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mobme\Documents\Visual Studio 2013\Projects\Chillr\Chillr\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mobme\Documents\Visual Studio 2013\Projects\Chillr\Chillr\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mobme\Documents\Visual Studio 2013\Projects\Chillr\Chillr\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mobme\Documents\Visual Studio 2013\Projects\Chillr\Chillr\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mobme\Documents\Visual Studio 2013\Projects\Chillr\Chillr\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mobme\Documents\Visual Studio 2013\Projects\Chillr\Chillr\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mobme\Documents\Visual Studio 2013\Projects\Chillr\Chillr\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mobme\Documents\Visual Studio 2013\Projects\Chillr\Chillr\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mobme\Documents\Visual Studio 2013\Projects\Chillr\Chillr\bin\Debug\Chillr.xr.xml">
+      <PackagePath>Chillr.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mobme\Documents\Visual Studio 2013\Projects\Chillr\Chillr\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
