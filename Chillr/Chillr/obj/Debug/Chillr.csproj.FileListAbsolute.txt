@@ -30,3 +30,40 @@ c:\users\mobme\documents\visual studio 2013\Projects\Chillr\Chillr\obj\Debug\qua
 c:\users\mobme\documents\visual studio 2013\Projects\Chillr\Chillr\obj\Debug\qualifiers.txt.intermediate
 c:\users\mobme\documents\visual studio 2013\Projects\Chillr\Chillr\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 c:\users\mobme\documents\visual studio 2013\Projects\Chillr\Chillr\obj\Debug\ProjectArchitectures.txt
+C:\Projects\Chillr\Chillr\bin\Debug\App.xbf
+C:\Projects\Chillr\Chillr\bin\Debug\MainPage.xbf
+C:\Projects\Chillr\Chillr\bin\Debug\Chillr.xr.xml
+C:\Projects\Chillr\Chillr\bin\Debug\Chillr.exe
+C:\Projects\Chillr\Chillr\bin\Debug\Chillr.pdb
+C:\Projects\Chillr\Chillr\bin\Debug\resources.pri
+C:\Projects\Chillr\Chillr\bin\Debug\AppxManifest.xml
+C:\Projects\Chillr\Chillr\bin\Debug\Chillr.build.appxrecipe
+C:\Projects\Chillr\Chillr\obj\Debug\App.g.i.cs
+C:\Projects\Chillr\Chillr\obj\Debug\App.g.cs
+C:\Projects\Chillr\Chillr\obj\Debug\MainPage.g.i.cs
+C:\Projects\Chillr\Chillr\obj\Debug\MainPage.g.cs
+C:\Projects\Chillr\Chillr\obj\Debug\XamlTypeInfo.g.cs
+C:\Projects\Chillr\Chillr\obj\Debug\App.xaml
+C:\Projects\Chillr\Chillr\obj\Debug\MainPage.xaml
+C:\Projects\Chillr\Chillr\obj\Debug\App.xbf
+C:\Projects\Chillr\Chillr\obj\Debug\MainPage.xbf
+C:\Projects\Chillr\Chillr\obj\Debug\XamlSaveStateFile.xml
+C:\Projects\Chillr\Chillr\obj\Debug\Chillr.exe
+C:\Projects\Chillr\Chillr\obj\Debug\Chillr.pdb
+C:\Projects\Chillr\Chillr\obj\Debug\priconfig.xml
+C:\Projects\Chillr\Chillr\obj\Debug\priconfig.xml.intermediate
+C:\Projects\Chillr\Chillr\obj\Debug\layout.resfiles
+C:\Projects\Chillr\Chillr\obj\Debug\layout.resfiles.intermediate
+C:\Projects\Chillr\Chillr\obj\Debug\resources.resfiles
+C:\Projects\Chillr\Chillr\obj\Debug\resources.resfiles.intermediate
+C:\Projects\Chillr\Chillr\obj\Debug\pri.resfiles
+C:\Projects\Chillr\Chillr\obj\Debug\pri.resfiles.intermediate
+C:\Projects\Chillr\Chillr\obj\Debug\qualifiers.txt
+C:\Projects\Chillr\Chillr\obj\Debug\qualifiers.txt.intermediate
+C:\Projects\Chillr\Chillr\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Projects\Chillr\Chillr\obj\Debug\ProjectArchitectures.txt
+C:\Projects\Chillr\Chillr\bin\Debug\Views\SettingsPage.xbf
+C:\Projects\Chillr\Chillr\obj\Debug\Views\SettingsPage.g.i.cs
+C:\Projects\Chillr\Chillr\obj\Debug\Views\SettingsPage.g.cs
+C:\Projects\Chillr\Chillr\obj\Debug\Views\SettingsPage.xaml
+C:\Projects\Chillr\Chillr\obj\Debug\Views\SettingsPage.xbf

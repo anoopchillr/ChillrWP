@@ -55,7 +55,7 @@
             </Image>
 
             <StackPanel Orientation="Horizontal"  VerticalAlignment="Top" HorizontalAlignment="Right">
-                <Button Padding="0">
+                <Button x:ConnectionId='1'                                    Padding="0">
                     <Button.Content>
                         <Image Source="Assets/Chillr/icon_settings.png" Height="30"/>
                     </Button.Content>
@@ -66,7 +66,6 @@
                 <TextBlock Text="Available Balance"  Style="{StaticResource BalSmallTextStyle}"></TextBlock>
                 <TextBlock Text="Rs 1020210.00" Style="{StaticResource BalLargeTextStyle}" ></TextBlock>
             </StackPanel>
-
 
         </Grid>
 
