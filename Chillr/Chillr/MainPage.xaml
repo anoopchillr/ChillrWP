@@ -64,7 +64,7 @@
 
             <StackPanel VerticalAlignment="Bottom" Margin="0,0,12,24" HorizontalAlignment="Right">
                 <TextBlock Text="Available Balance"  Style="{StaticResource BalSmallTextStyle}"></TextBlock>
-                <TextBlock Text="Rs 1020210.00" Style="{StaticResource BalLargeTextStyle}" ></TextBlock>
+                <TextBlock Text="Rs 7534.00" Style="{StaticResource BalLargeTextStyle}" ></TextBlock>
             </StackPanel>
 
         </Grid>
