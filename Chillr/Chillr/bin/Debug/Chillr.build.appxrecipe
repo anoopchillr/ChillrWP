@@ -19,6 +19,9 @@
     <AppxPackagedFile Include="C:\Projects\Chillr\Chillr\bin\Debug\Chillr.exe">
       <PackagePath>Chillr.exe</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projects\Chillr\Chillr.Core\bin\Debug\Chillr.Core.dll">
+      <PackagePath>Chillr.Core.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\Chillr\Chillr\Assets\Chillr\icon_nearme.png">
       <PackagePath>Assets\Chillr\icon_nearme.png</PackagePath>
     </AppxPackagedFile>
@@ -67,11 +70,11 @@
     <AppxPackagedFile Include="C:\Projects\Chillr\Chillr\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\Chillr\Chillr\bin\Debug\MainPage.xbf">
-      <PackagePath>MainPage.xbf</PackagePath>
+    <AppxPackagedFile Include="C:\Projects\Chillr\Chillr\bin\Debug\MainView.xbf">
+      <PackagePath>MainView.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\Chillr\Chillr\bin\Debug\Views\SettingsPage.xbf">
-      <PackagePath>Views\SettingsPage.xbf</PackagePath>
+    <AppxPackagedFile Include="C:\Projects\Chillr\Chillr\bin\Debug\Views\HomeView.xbf">
+      <PackagePath>Views\HomeView.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\Chillr\Chillr\bin\Debug\Chillr.xr.xml">
       <PackagePath>Chillr.xr.xml</PackagePath>

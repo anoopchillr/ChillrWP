@@ -1,1 +1,2 @@
+C:\Projects\Chillr\Chillr.Core\Chillr.Core.csproj;neutral
 C:\Projects\Chillr\Chillr\Chillr.csproj;neutral

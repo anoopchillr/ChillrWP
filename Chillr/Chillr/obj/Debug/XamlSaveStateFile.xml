@@ -1,5 +1,6 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
     <LocalAssembly PathName="c:\users\mobme\documents\visual studio 2013\projects\chillr\chillr\obj\debug\intermediatexaml\chillr.exe" HashGuid="b49ad66c-8e1a-6665-66b9-bf5aae4d27a0" />
+    <ReferenceAssembly PathName="c:\projects\chillr\chillr.core\bin\debug\chillr.core.dll" HashGuid="562eff0b-74ef-b4f2-da60-f1ca36908550" />
   </ReferenceAssemblyList>
 </XamlCompilerSaveState>

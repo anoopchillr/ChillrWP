@@ -125,16 +125,16 @@ namespace Chillr.Chillr_XamlTypeInfo
         private void InitTypeTables()
         {
             _typeNameTable = new string[4];
-            _typeNameTable[0] = "Chillr.MainPage";
+            _typeNameTable[0] = "Chillr.MainView";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[3] = "Chillr.Views.SettingsPage";
+            _typeNameTable[3] = "Chillr.Views.HomeView";
 
             _typeTable = new global::System.Type[4];
-            _typeTable[0] = typeof(global::Chillr.MainPage);
+            _typeTable[0] = typeof(global::Chillr.MainView);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[3] = typeof(global::Chillr.Views.SettingsPage);
+            _typeTable[3] = typeof(global::Chillr.Views.HomeView);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -169,8 +169,8 @@ namespace Chillr.Chillr_XamlTypeInfo
             return -1;
         }
 
-        private object Activate_0_MainPage() { return new global::Chillr.MainPage(); }
-        private object Activate_3_SettingsPage() { return new global::Chillr.Views.SettingsPage(); }
+        private object Activate_0_MainView() { return new global::Chillr.MainView(); }
+        private object Activate_3_HomeView() { return new global::Chillr.Views.HomeView(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -182,9 +182,9 @@ namespace Chillr.Chillr_XamlTypeInfo
             switch (typeIndex)
             {
 
-            case 0:   //  Chillr.MainPage
+            case 0:   //  Chillr.MainView
                 userType = new global::Chillr.Chillr_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_0_MainPage;
+                userType.Activator = Activate_0_MainView;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -197,9 +197,9 @@ namespace Chillr.Chillr_XamlTypeInfo
                 xamlType = new global::Chillr.Chillr_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 3:   //  Chillr.Views.SettingsPage
+            case 3:   //  Chillr.Views.HomeView
                 userType = new global::Chillr.Chillr_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_3_SettingsPage;
+                userType.Activator = Activate_3_HomeView;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
